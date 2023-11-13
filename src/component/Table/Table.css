@@ -1,0 +1,39 @@
+/* TABLE COMPONENT
+table {
+  > tbody {
+
+    > tr {
+      border-bottom: 1px solid #f2f2f2;
+      > td {
+        padding: 20px 10px !important;
+      }
+      > .selector {
+        width: 50px;
+      }
+    }
+  }
+} */
+
+
+table tbody tr {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+table tbody tr td {
+  padding: 20px 10px !important;
+}
+
+table tbody tr .selector{
+  
+  width: 50px;
+}
+
+th {
+  position: sticky;
+  top: 0px;
+}
+
+.table-scrool{ 
+  max-height: 585px;
+  overflow-y: scroll;
+}

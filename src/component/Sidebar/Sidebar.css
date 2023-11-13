@@ -1,0 +1,98 @@
+/* SIDEBAR STYLE */
+/* .sidebar {
+  background: #ffffff;
+  width: 100%;
+  .branding-container {
+    > .brand-name {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #013cc6;
+    }
+  }
+  .nav-links {
+    width: 100%;
+    > ul {
+      padding: 0px;
+      margin: 0px;
+      > .nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        width: 100%;
+        height: 50px;
+        padding: 0px 20px;
+        font-size: 16px;
+        height: 40px;
+
+        > p {
+          font-size: 0.9rem;
+        }
+      }
+
+      > .active {
+        color: #0b63f8;
+        border-left: 3px solid #0b63f8;
+      }
+    }
+  }
+} */
+
+.sidebar {
+  background: #fff;
+  width: 100%;
+}
+
+.sidebar .branding-container .brand-name{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #013cc6;
+}
+
+.nav-links{
+  width: 100%;
+}
+
+.nav-links ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-links ul .nav-link{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  height: 50px;
+  padding: 0px 20px;
+  font-size: 16px;
+}
+
+.nav-links ul .nav-link a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-links ul .active {
+  color: #0b63f8;
+  border-left: 3px solid #0b63f8;
+}
+
+.nav-links ul .active a {
+  color: #0b63f8;
+}
+
+.sidebar-1 {
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 380px;
+}
+
+.sidebar-1 .footer div a {
+  text-decoration: none;
+  color: #000;
+}

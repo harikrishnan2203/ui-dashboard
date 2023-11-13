@@ -1,0 +1,21 @@
+/* Input element */
+input {
+  height: 50px;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="number"]::placeholder {
+  color: #131313;
+  font-size: 0.9rem;
+}
+
+input[type="search"] {
+  background: none;
+  border: none;
+  width: 320px;
+  padding: 0px;
+  height: 40px;
+  outline: none;
+}
+
