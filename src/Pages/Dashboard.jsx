@@ -424,19 +424,19 @@ export default function Dashboard() {
             <p>Sales Information</p>
           </div>
           <div class="row mb-4">
-            <div class="col-3">
+          <div class="col-3">
               <InputComponent
-                label="Customer"
-                id="customerName"
-                placeholder="Enter Customer Name"
+                label="Invoice ID"
+                id="invoiceID"
+                placeholder="Enter Invoice ID"
                 type="text"
               />
             </div>
             <div class="col-3">
               <InputComponent
-                label="Invoice ID"
-                id="invoiceID"
-                placeholder="Enter Invoice ID"
+                label="Customer"
+                id="customerName"
+                placeholder="Enter Customer Name"
                 type="text"
               />
             </div>
