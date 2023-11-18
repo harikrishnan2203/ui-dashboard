@@ -2,6 +2,7 @@ import React from "react";
 import "./Table.css";
 
 export default function Table({ data = [] }) {
+
   return (
     <div className="table-scrool">
       <table className="table table-hover">
@@ -24,9 +25,8 @@ export default function Table({ data = [] }) {
         </tr>
       </thead>
       <tbody className="table-body">
-        {data &&
-          data.map((d, i) => (
-            <tr>
+        { data.map((d) => (
+            <tr key={d.invoiceId}>
               <td scope="row" className="selector">
                 <input
                   className="form-check-input"

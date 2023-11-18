@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Table from "../component/Table/Table";
 import InputComponent from "../component/elements/Inputs/Input";
 import SearchComponent from "../component/elements/Inputs/search";
@@ -8,6 +8,7 @@ import { tableData } from "../Data";
 
 
 export default function Dashboard() {
+
   return (
     <div class="container">
       <div class="row">
